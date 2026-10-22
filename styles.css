@@ -105,7 +105,7 @@ body {
 .about-card {
   background: var(--card); border-radius: var(--radius); padding: 1.35rem 1.5rem;
   box-shadow: var(--shadow); border: 1px solid #e8eef7; display: flex; gap: 1rem; align-items: flex-start;
-  transition: transform .2s, box-shadow .2s;
+  transition: transform .2s, box-shadow .2s; flex-wrap: wrap;
 }
 .about-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
 .about-icon {
@@ -113,7 +113,7 @@ body {
   background: linear-gradient(135deg, var(--blue-light), var(--blue)); color: #fff;
 }
 .about-card h3 { font-size: 1.05rem; font-weight: 800; color: var(--navy); }
-.about-card p { color: var(--muted); font-size: .92rem; }
+.about-card p { color: var(--muted); font-size: .92rem; flex-basis: 100%; }
 
 /* ─── الخدمات ─── */
 .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1.1rem; }
