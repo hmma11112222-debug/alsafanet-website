@@ -135,7 +135,7 @@ body {
 /* ─── الباقات ─── */
 .packages-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; }
 .pkg-card {
-  position: relative; background: var(--card); border: 1px solid #e8eef7; border-radius: var(--radius);
+  position: relative; background: var(--card); border: 2px solid #e8eef7; border-radius: var(--radius);
   padding: 1.6rem 1.4rem; text-align: center; box-shadow: var(--shadow);
   transition: transform .2s, box-shadow .2s;
 }
@@ -148,10 +148,10 @@ body {
 }
 .pkg-price { font-size: 2rem; font-weight: 900; color: var(--navy); line-height: 1.2; }
 .pkg-price small { font-size: .85rem; font-weight: 700; color: var(--muted); }
-.pkg-meta { display: flex; justify-content: center; gap: 1.4rem; margin-top: .9rem; }
+.pkg-meta { display: flex; justify-content: center; gap: 1.4rem; margin-top: 1.1rem; }
 .pkg-meta div { text-align: center; }
-.pkg-meta span { display: block; font-size: .72rem; color: var(--muted); font-weight: 700; }
-.pkg-meta b { font-size: .95rem; color: var(--blue); font-weight: 800; }
+.pkg-meta span { display: block; font-size: .8rem; color: var(--muted); font-weight: 700; }
+.pkg-meta b { font-size: 1rem; color: var(--blue); font-weight: 800; }
 
 /* ─── التغطية ─── */
 .coverage-list { display: flex; flex-wrap: wrap; gap: .7rem; justify-content: center; }
