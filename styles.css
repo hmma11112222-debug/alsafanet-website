@@ -154,7 +154,7 @@ body {
 .pkg-meta b { font-size: 1rem; color: var(--blue); font-weight: 800; }
 
 /* ─── التغطية ─── */
-.coverage-list { display: flex; flex-wrap: wrap; gap: .7rem; justify-content: center; }
+.coverage-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); justify-items: center; gap: .7rem; }
 .coverage-item {
   display: inline-flex; align-items: center; gap: .5rem;
   background: var(--bg); border: 1px solid #e2eaf5; border-radius: 999px;
@@ -163,6 +163,9 @@ body {
 }
 .coverage-item:hover { background: #eaf1fd; transform: translateY(-2px); }
 .coverage-item svg { color: var(--blue); flex-shrink: 0; }
+@media (min-width: 600px) and (max-width: 1100px) {
+  .coverage-list { grid-template-columns: repeat(2, minmax(230px, 1fr)); }
+}
 
 /* ─── التطبيق ─── */
 .section-app { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 60%, #123366 100%); color: #fff; }
