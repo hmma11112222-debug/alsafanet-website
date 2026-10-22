@@ -96,7 +96,7 @@ body {
 .section-note { text-align: center; color: var(--muted); font-size: .88rem; margin-top: 2rem; }
 
 /* ─── من نحن ─── */
-.about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: center; }
+.about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: start; }
 .about-text p { font-size: 1.06rem; color: #33415c; margin-bottom: 1rem; }
 .about-text h3 { font-size: 1.25rem; font-weight: 800; color: var(--navy); margin: 1.6rem 0 .9rem; }
 .about-text h3:first-child { margin-top: 0; }
