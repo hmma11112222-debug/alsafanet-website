@@ -129,6 +129,9 @@ body {
 }
 .service-card h3 { font-size: .97rem; font-weight: 800; color: var(--navy); line-height: 1.5; }
 
+/* ─── خدمات المقهى ─── */
+.cafe-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; }
+
 /* ─── الباقات ─── */
 .packages-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; }
 .pkg-card {
@@ -209,6 +212,7 @@ body {
 /* ─── الجوال ─── */
 @media (max-width: 860px) {
   .about-grid, .app-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .cafe-grid { grid-template-columns: 1fr; }
   .app-visual { order: -1; }
   .app-logo { width: 200px; }
   .nav-links {
