@@ -1,0 +1,18 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Playwright / test artifacts
+.playwright-mcp/
+.playwright/
+test-results/
+screenshots/
+
+# Node / tooling
+node_modules/
+
+# Editor
+.vscode/
+.idea/
