@@ -98,6 +98,9 @@ body {
 /* ─── من نحن ─── */
 .about-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: center; }
 .about-text p { font-size: 1.06rem; color: #33415c; margin-bottom: 1rem; }
+.about-text h3 { font-size: 1.25rem; font-weight: 800; color: var(--navy); margin: 1.6rem 0 .9rem; }
+.about-text h3:first-child { margin-top: 0; }
+.about-motto { font-weight: 800; color: var(--blue) !important; margin-bottom: 0 !important; }
 .about-cards { display: grid; gap: 1.1rem; }
 .about-card {
   background: var(--card); border-radius: var(--radius); padding: 1.35rem 1.5rem;
